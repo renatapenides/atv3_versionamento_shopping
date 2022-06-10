@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping "Atividade 03"</title>
+</head>
+<body>
+    
+    <div class="mainnav">
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="quem_somos.html">Quem Somos</a></li>
+            <li><a href="aluguel.html">Alugue Sua Loja</a></li>
+            <li><a href="lojas.html">Lojas</a></li>
+            <li><a href="produtos.html">Produtos</a></li>
+        </ul> 
+    </div>
+
+    <div class="contents">
+        <form name="aluguel">
+            <fieldset class="grupo">
+                <legend>Alugue sua Loja</legend>
+                <label>Informe seu Nome:</label>
+                <input type="text" name="nome" placeholder="Digite o seu nome completo..." required maxlength="50" class="maior">
+                <br><br>
+
+                <label>Informe seu E-mail:</label>
+                <input type="text" name="nome" placeholder="Digite o seu E-mail..." required maxlength="50" class="maior">
+                <br><br>
+
+                <label>Informe seu Telefone:</label>
+
+                <input type="text" name="tel" placeholder="(99)99999-9999" required maxlength="14" class="maior" onkeypress="mascara_tel(this);">
+
+                <br><br>
+
+                <label>Informe seu Celular:</label>
+
+                <input type="text" name="tel" placeholder="(99)99999-9999" required maxlength="14" class="maior" onkeypress="mascara_tel(this);">
+
+                <br><br>
+
+                <label>Deixe o seu Recado:</label>
+                <br>
+                <textarea name="recado" rows="5" placeholder="Digite o seu Recado..." maxlength="300" class="maior"></textarea>
+                <br><br>
+                <input type="submit" class="menor" name="enviar" value="ENVIAR">
+                <input type="reset" class="menor" name="limpar" value="LIMPAR">
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
